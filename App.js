@@ -2,8 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, ScrollView, } from 'react-native';
 import List from './list';
 
-
-export default class App extends React.Component {
+export default class Home extends React.Component {
   render() {
     return (
       <ScrollView contentContainerStyle={styles.container}>
@@ -12,8 +11,7 @@ export default class App extends React.Component {
     );
   }
 }
-//styles 
-//container stlye 
+
 const styles = StyleSheet.create({
   container: {
     paddingTop: 30,
