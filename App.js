@@ -1,14 +1,27 @@
 import React from 'react';
-import { StyleSheet, Text, View, ScrollView } from 'react-native';
+import { StyleSheet, Text, ScrollView, } from 'react-native';
+import List from './list';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text style={styleText.text}>Thicc</Text>
-    </View>
+
+export default class App extends React.Component {
+  render(){
+      return (
+    <ScrollView contentContainerStyle={styles.container}>
+     <List></List>
+     <List></List>
+     <List></List>
+     <List></List>
+     <List></List>
+     <List></List>
+     <List></List>
+     <List></List>
+     <List></List>
+    </ScrollView>
   );
+  }
 }
-
+//styles 
+//container stlye 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -18,9 +31,10 @@ const styles = StyleSheet.create({
   },
 });
 
-const styleText = StyleSheet.create({
-  text:{
-    fontSize: 30,
-    fontWeight: "bold",
-  },
-});
+//text styles 
+// const styleText = StyleSheet.create({
+//   text:{
+//     fontSize: 30,
+//     fontWeight: "bold",
+//   },
+// }) 
