@@ -6,7 +6,7 @@ export default class List extends React.Component {
     render() {
         return (
             <View style={styles.list}>
-                    
+                
                 <Text stlye={titleStyle.head}> Why you need a beach house to Hibernate this winter... </Text>
 
                 {/* item 1 */}
