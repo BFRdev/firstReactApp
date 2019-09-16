@@ -4,12 +4,12 @@ import List from './list';
 
 
 export default class App extends React.Component {
-  render(){
-      return (
-    <ScrollView contentContainerStyle={styles.container}>
+  render() {
+    return (
+      <ScrollView contentContainerStyle={styles.container}>
         <List></List>
-    </ScrollView>
-  );
+      </ScrollView>
+    );
   }
 }
 //styles 
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#34a1eb',
     alignItems: 'center',
     justifyContent: 'center',
-    
+
   },
 });
 

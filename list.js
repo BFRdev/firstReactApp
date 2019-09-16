@@ -15,19 +15,19 @@ export default class List extends React.Component {
 
                 {/* item 2 */}
                 <Image style={stlyes.Img} source={{ uri: 'https://bit.ly/2kfx5fs' }} />
-                <Text style={textStlye.stlyeText}>The soft sand</Text>
+                <Text style={textStlye.stlyeText}>2.The soft sand</Text>
 
                 {/* item 3 */}
                 <Image style={stlyes.Img} source={{ uri: 'https://bit.ly/2Fwlj7T' }} />
-                <Text style={textStlye.stlyeText}>Wearmth of the sun</Text>
+                <Text style={textStlye.stlyeText}>3.Wearmth of the sun</Text>
 
                 {/* item 4 */}
                 <Image style={stlyes.Img} source={{ uri: 'https://bit.ly/2knp3Bq' }} />
-                <Text style={textStlye.stlyeText}>The wet and clean water</Text>
+                <Text style={textStlye.stlyeText}>4.The wet and clean water</Text>
 
                 {/* item 5 */}
                 <Image style={stlyes.Img} source={{ uri: 'https://bit.ly/2kPMXpp' }} />
-                <Text style={textStlye.stlyeText}>Fun with firends</Text>
+                <Text style={textStlye.stlyeText}>5.Fun with firends</Text>
 
             </View>
         );
