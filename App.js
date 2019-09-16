@@ -8,14 +8,6 @@ export default class App extends React.Component {
       return (
     <ScrollView contentContainerStyle={styles.container}>
      <List></List>
-     <List></List>
-     <List></List>
-     <List></List>
-     <List></List>
-     <List></List>
-     <List></List>
-     <List></List>
-     <List></List>
     </ScrollView>
   );
   }
