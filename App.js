@@ -7,7 +7,7 @@ export default class App extends React.Component {
   render(){
       return (
     <ScrollView contentContainerStyle={styles.container}>
-     <List></List>
+        <List></List>
     </ScrollView>
   );
   }
@@ -16,17 +16,12 @@ export default class App extends React.Component {
 //container stlye 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: 'red',
+    paddingTop: 30,
+    paddingBottom: 10,
+    backgroundColor: '#34a1eb',
     alignItems: 'center',
     justifyContent: 'center',
+    
   },
 });
 
-//text styles 
-// const styleText = StyleSheet.create({
-//   text:{
-//     fontSize: 30,
-//     fontWeight: "bold",
-//   },
-// }) 
