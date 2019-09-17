@@ -5,10 +5,11 @@ import { selectAssetSource } from 'expo-asset/build/AssetSources';
 export default class List extends React.Component {
     render() {
         return (
-            <View style={styles.list}>
-                
-                <Text stlye={titleStyle.head}> Why you need a beach house to Hibernate this winter... </Text>
 
+            <View style={styles.list}>
+               
+                <Text stlye={textStlye.head}> Why you need a beach house to Hibernate this winter... </Text>
+                
                 {/* item 1 */}
                 <Image style={stlyes.Img} source={{ uri: 'https://bit.ly/2lYXlv1' }} />
                 <Text style={textStlye.stlyeText}>1. Beautiful scenery</Text>
@@ -68,7 +69,7 @@ const titleStyle = StyleSheet.create({
 const textStlye = StyleSheet.create({
     stlyeText: {
         fontSize: 20,
-        marginBottom: 10, 
+        marginBottom: 10,
 
     }
 });
