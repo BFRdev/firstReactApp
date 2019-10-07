@@ -11,3 +11,8 @@
 
 ## Wanted to add
 ### I wanted to add a bottom tab bar navigator so I can have another page with a fun beach ball game, for some reason I encountered many erroes so I decided to not pursue that right now for the sake of time and I will learn more about navigation in class. 
+
+## modified to have animations 
+#### added a spring, fade and rotate animation
+
+### make sure to npm install within the project and have the expo cli installed in your root derectory 

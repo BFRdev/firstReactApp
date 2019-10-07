@@ -3,6 +3,7 @@ import { StyleSheet, Text, ScrollView, } from 'react-native';
 //import component 
 import List from './list';
 
+
 //home page 
 export default class Home extends React.Component {
   render() {
